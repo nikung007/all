@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1654490171248",
+    "hedding": "Free Fire",
+    "description": "Garena Free Fire, also known as Free Fire, is a battle royale game, developed by 111dots Studio and published by Garena for Android and iOS. It became the most downloaded mobile game globally in 2019. In August 2021, Free Fire set a record with over 150 million daily active users globally."
+  },
+  {
+    "id": "1654490201032",
+    "hedding": "Red Notice",
+    "description": "Red Notice is a 2021 American action comedy film written, directed, and produced by Rawson Marshall Thurber. "
+  },
+  {
+    "id": "1654490249608",
+    "hedding": "H&M",
+    "description": "H & M Hennes & Mauritz AB is a Swedish multinational clothing company headquartered in Stockholm. Its focus is fast-fashion clothing for men, women, teenagers, and children. "
+  },
+  {
+    "id": "1654490263527",
+    "hedding": "Nora Fatehi",
+    "description": "Nora Fatehi (born 6 February 1992) is a Canadian actress, model, dancer, singer, and producer who is known for her work in the Indian film industry."
+  },
+  {
+    "id": "1654490275903",
+    "hedding": "Game",
+    "description": "A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool. Games are different from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements."
+  },
+  {
+    "id": "1654490291055",
+    "hedding": "Dubai",
+    "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks."
+  },
+  {
+    "id": "1654490303016",
+    "hedding": "nokia ",
+    "description": "Nokia is a public limited company listed on the Helsinki Stock Exchange and New York Stock Exchange."
+  },
+  {
+    "id": "1654490314335",
+    "hedding": "Samsung ",
+    "description": "Samsung Electronics Co., Ltd. is a South Korean multinational electronics corporation headquartered in the Yeongtong District of Suwon. It is the pinnacle of the Samsung chaebol, accounting for 70% of the group's revenue in 2012"
+  },
+  {
+    "id": "1654490326472",
+    "hedding": "iphone ",
+    "description": "The iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera and cellular phone into one device with a touchscreen interface. "
+  },
+  {
+    "id": "1654490337472",
+    "hedding": "mobile ",
+    "description": "A mobile phone, cellular phone, cell phone, cellphone, handphone, hand phone or pocket phone, sometimes shortened to simply mobile, cell, or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area."
+  },
+  {
+    "id": "1654490347577",
+    "hedding": "Food",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals."
+  },
+  {
+    "id": "1654490377511",
+    "hedding": "React",
+    "description": "You can pass an optional delay prop which specifies the time (in milliseconds) react-placeholder should wait before displaying the placeholder element. This is useful if you want to show a placeholder for slower connections while avoiding a brief \"flash\" on faster connections."
+  },
+  {
+    "id": "1654490430384",
+    "hedding": "Code",
+    "description": "Code.org® is an education innovation nonprofit dedicated to the vision that every student in every school has the opportunity to learn computer science as ..."
+  }
+]

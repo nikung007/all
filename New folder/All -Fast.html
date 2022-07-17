@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    button {
+        margin-left: 41%;
+        background-color: lightcoral;
+        cursor: pointer;
+        border: none;
+        padding: 40px;
+        border-radius: 40px;
+        font-size: 25px;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <button onclick="NewTab();" id="btn">
+        Hello Click Me
+    </button>
+    <p id="txt"></p>
+
+    <script>
+        function NewTab() {
+            const MAX = 40;
+            const initialRandom = Math.floor(Math.random() * 45) + 100;
+            const multiplied = initialRandom * MAX;
+            const answer = Math.floor(multiplied);  
+            setTimeout(link, answer);
+            document.getElementById('txt').innerHTML=answer;
+        
+        }
+        function link() {
+            const MAX1 = 650;
+            const initialRandom1 = Math.floor(Math.random() * 60) + 110;
+            const multiplied1 = initialRandom1 * MAX1;
+            const answer1 = Math.floor(multiplied1);
+            window.open("https://1315.go.qureka.com/", "_blank");
+            // setTimeout(NewTab, answer1);
+            setTimeout(blog, answer1);
+            document.getElementById('txt').innerHTML=answer1;
+        
+        }
+        function blog(){
+            const MAX2 = 450;
+            const initialRandom2 = Math.floor(Math.random() * 50) + 120;
+            const multiplied2 = initialRandom2 * MAX2;
+            const answer2 = Math.floor(multiplied2);
+            window.open("https://reactjs03.blogspot.com/", "_blank");             
+            setTimeout(blogPage, answer2);
+            document.getElementById('txt').innerHTML=answer2;
+      
+        }  
+        function blogPage(){
+            const MAX3 = 800;
+            const initialRandom3 = Math.floor(Math.random() * 60) + 80;
+            const multiplied3 = initialRandom3 * MAX3;
+            const answer3 = Math.floor(multiplied3);
+            window.open("https://reactjs03.blogspot.com/p/react-java-script-getting-started-1.html", "_blank");             
+            setTimeout(gameZop, answer3);
+            document.getElementById('txt').innerHTML=answer3;
+            
+        }  
+		function gameZop(){
+            const MAX4 = 800;
+            const initialRandom4 = Math.floor(Math.random() * 60) + 80;
+            const multiplied4 = initialRandom4 * MAX4;
+            const answer4 = Math.floor(multiplied4);
+            window.open("https://www.gamezop.com/?id=4945", "_blank");             
+            setTimeout(gizeZop, answer4);
+            document.getElementById('txt').innerHTML=answer4;
+            
+        }  
+		function gizeZop(){
+            const MAX5 = 800;
+            const initialRandom5 = Math.floor(Math.random() * 60) + 80;
+            const multiplied5 = initialRandom5 * MAX5;
+            const answer5 = Math.floor(multiplied5);
+            window.open("https://4946.play.quizzop.com/", "_blank");             
+            setTimeout(NewTab, answer5);
+            document.getElementById('txt').innerHTML=answer5;
+            
+        } 
+    </script>
+
+</body>
+
+</html>

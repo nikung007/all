@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Tiro+Telugu&display=swap');
+
+
+
+body{
+    margin: 0;
+    background-color: #ddf0f8!important;
+    font-family: 'Libre Baskerville', serif!important;
+    font-family: 'Tiro Telugu', serif!important;
+    font-weight: 800;
+}
+p{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    color: red;
+}
+h1{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    text-align: center;
+}
+.hedder{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 100%;
+    height: 50px;
+    background-color: #B3E5FC;
+    margin-top: 5px;
+    position: relative;
+}
+.hedder .head{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+  position: absolute;
+   top: 0;
+   right: 120px;
+   width: 100px;
+   height: 40px;
+   margin-right: 20px ;
+   margin-top: 5px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   background-color: #4FC3F7;
+   box-shadow: 1px 1px 3px;
+}
+.hedder .table{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    position: absolute;
+     top: 0;
+     right: 0;
+     width: 100px;
+     height: 40px;
+     margin-right: 20px ;
+     margin-top: 5px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: #4FC3F7;
+     box-shadow: 1px 1px 3px;
+  }
+.hedder .home{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    position: absolute;
+     top: 0;
+     left: 10px;
+     width: 100px;
+     height: 40px;
+     margin-right: 20px ;
+     margin-top: 5px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: #4FC3F7;
+     box-shadow: 1px 1px 3px;
+  }
+.form-add{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 350px;
+    margin: 15px auto;
+    background-color: #4FC3F7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px;
+}
+.form-add:hover{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    animation: pulsat 1s ease-in-out;
+}
+@keyframes pulsat {
+    0% {
+        box-shadow: 
+        0 0 25px #4e7ee5,
+        0 0 25px #5e5e5e;
+    }
+}
+.table-data{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: auto;
+    margin: 20px 200px;
+}
+.ant-table-pagination-right{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    justify-content: center!important;
+}
+.ant-table-row{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 50%;
+}
+.ant-table{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 100%!important;
+}
+.table-data .ant-input-wrapper{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 50%!important;
+    margin: 10px auto;
+}
+.srch{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    background-color: #4FC3F7;
+    display: flex;
+}
+.icon{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    font-size: 20px;
+}
+a{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    color: black!important;
+}
+.crt{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin: 12px;
+}
+.fn{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    display: flex;
+    align-items: center;
+}
+.bg{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    border-color: red!important;
+}
+.fn Input{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin: 8px;
+}
+.ln{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 273px;
+}
+.bt Button{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-top: 10px;
+    left: 90px;
+}
+.rd{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-left: 55px!important;
+}
+.rds{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-start;
+}
+.ch{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-right: 18px;
+}
+.chr{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-top: 12px;
+}
+.sel{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ant-cascader {
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 220px!important;
+}
+.ant-select-dropdown {
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    min-width: 220px!important;
+}
+.ant-modal-body{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    margin: 0!important;
+}
+.show-data{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    background-color: #B3E5FC;
+    padding: 15px;
+    border-radius: 15px;
+}
+.show-data:hover{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+    0% {
+        box-shadow: 
+        0 0 25px #12a6ea,
+        0 0 25px #004869;
+    }
+}
+h4{
+    font-family: 'Libre Baskerville', serif!important;
+    font-family: 'Tiro Telugu', serif!important;
+    font-weight: 900!important;
+    margin: 0!important;
+    padding: 5px;
+    color: #024cbb!important;
+}
+pre{
+    font-family: 'Libre Baskerville', serif!important;
+    font-family: 'Tiro Telugu', serif!important;
+    margin: 0!important;
+    font-size: 17px!important;
+    padding-left: 5px;
+    transition: 0.5s;
+}
+pre:hover{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    font-weight: 600;
+    background-color: #12a6ea;
+    cursor: pointer;
+    color: rgb(20, 19, 19);
+    border-radius: 10px;
+}
+.ant-modal-body{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    padding: 20px!important;
+}
+.ant-modal-content{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    width: 450px;
+    border-radius: 15px!important;
+}
+.ant-modal-header{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    background-color: #6fd1ff!important;
+    border-radius: 10px!important;
+}
+.ant-modal-content{
+    font-family: 'Libre Baskerville', serif!important;
+font-family: 'Tiro Telugu', serif!important;
+    background-color: #6fd1ff!important;
+}

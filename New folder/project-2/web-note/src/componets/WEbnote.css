@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Zilla+Slab:wght@300&display=swap');
+*{
+    background-color: #dbf1db;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:#A5D6A7 ;
+    padding: 20px 25px 25px 25px;
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 4px 4px 20px;
+}
+.input-data{
+    background-color:#A5D6A7 ;
+}
+h1{
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    background-color:#A5D6A7;
+   
+}
+input{
+    margin: 10px;
+}
+.input-data .input-head{
+    width: 275px;
+    height: 25px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #dbf1db;
+    border: none;
+    border-radius: 10px;
+}
+.serch-div{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.serch-div h4{
+    margin-top: 5px!important;
+    margin-bottom: 0!important;
+}
+.serch-input{
+    border-radius: 10px;
+    border: none;
+    background-color: #A5D6A7;
+    font-size: 26px;
+    box-shadow: 2px 2px 10px;
+}
+.input-data .input-des{
+    width: 275px;
+    height: 100px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:#dbf1db;
+    word-wrap: break-word;
+    resize: none;
+    margin: 10px;
+    font-size: 20;
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+.anticon-plus-circle svg{
+    background: transparent;
+}
+.input-data p{
+    margin: 0;
+    text-align: center;
+    color: red;
+    background: transparent;
+    margin-top: 7px;
+}
+.btn{
+    transition: 1s;
+}
+.input-data .btn:hover {
+    transform: scale(1.4);
+}
+.input-data .btn{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    background: transparent;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.show-data{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: #A5D6A7;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    
+}
+pre {
+    /* overflow-x: auto; */
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+ }
+
+.show-data pre{
+    width: 160px;
+    height: 130px;
+    margin-left: 11px;
+    background-color:  #dbf1db;
+    word-wrap: break-word;
+    overflow: auto;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.5s;
+    resize: none;
+}
+.show-data pre:hover{
+    transform: scale(1.1);
+}
+.btn-ed-del{
+    top: 80%;
+    position: absolute;
+    font-size: 28px;    
+    right: 35%;
+    background: #dbf1db;
+    /* margin-top: 5px; */
+    border-radius: 10px;
+    padding: 3px;
+}
+h4{
+    text-align: center;
+    font-size: 25px;    
+    margin: 10px 0 ;
+    background: transparent;
+    transition: 0.4s;
+}
+.anticon-edit svg:hover {
+    color: rgb(10, 157, 255);
+}
+.anticon-delete svg:hover {
+    color: rgb(233, 21, 21);
+}
+.anticon-edit svg{
+    background: transparent;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color:  #dbf1db;
+}
+.anticon-delete svg{
+    background: transparent;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color:  #dbf1db;
+}
+
+h4:hover{
+    color: rgb(137, 137, 255);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    button {
+        margin-left: 41%;
+        background-color: lightcoral;
+        cursor: pointer;
+        border: none;
+        padding: 40px;
+        border-radius: 40px;
+        font-size: 25px;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <button onclick="NewTab();" id="btn">
+        Hello Click Me
+    </button>
+    <p id="txt"></p>
+
+    <script>
+        function NewTab() {
+            const MAX = 2050;
+            const initialRandom = Math.floor(Math.random() * 45) + 90;
+            const multiplied = initialRandom * MAX;
+            const answer = Math.floor(multiplied);  
+            setTimeout(link, answer);
+            document.getElementById('txt').innerHTML=answer;
+        
+        }
+        function link() {
+            const MAX1 = 2000;
+            const initialRandom1 = Math.floor(Math.random() * 40) + 90;
+            const multiplied1 = initialRandom1 * MAX1;
+            const answer1 = Math.floor(multiplied1);
+            window.open("https://1315.go.qureka.com/", "_blank");
+            // setTimeout(NewTab, answer1);
+            setTimeout(blog, answer1);
+            document.getElementById('txt').innerHTML=answer1;
+        
+        }  
+    </script>
+
+</body>
+
+</html>
